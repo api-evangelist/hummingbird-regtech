@@ -1,8 +1,15 @@
 aid: hummingbird-regtech
 name: Hummingbird RegTech
-description: Hummingbird RegTech is a company surfaced as a portfolio company of battery-ventures and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Hummingbird RegTech, Inc. is a financial-crime compliance (RegTech) platform that unifies
+  risk and compliance operations for banks, fintechs, and financial institutions. The product
+  spans customer screening (sanctions, PEP, and adverse-media), transaction monitoring,
+  case management and investigations, and automated regulatory reporting (SAR/STR/CTR filing),
+  layered with AI agents and no-code automations plus 60+ pre-built app integrations to data
+  warehouses, CRMs, and third-party screening providers. Hummingbird exposes a login-gated
+  Hummingbird API for programmatically creating and managing investigations, cases, and
+  compliance workflow data. This profile was surfaced as a portfolio company of Battery
+  Ventures and enriched from Hummingbird's public web surface by the API Evangelist pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/hummingbird-regtech/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +17,85 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://www.hummingbird.co/
 tags:
 - Company
-apis: []
+- RegTech
+- Compliance
+- Anti-Money Laundering
+- Financial Crime
+- Case Management
+- Transaction Monitoring
+- Regulatory Reporting
+- KYC
+- Investigations
+apis:
+- name: Hummingbird API
+  description: >-
+    Login-gated REST API for the Hummingbird financial-crime compliance platform — used to
+    create and manage investigations, cases, customer profiles, and regulatory-reporting
+    workflow data programmatically. Public documentation is behind an authentication gate.
+  humanURL: https://api.hummingbird.co/
+  baseURL: https://api.hummingbird.co
+  tags:
+  - Compliance
+  - AML
+  - Investigations
+  properties:
+  - type: Documentation
+    url: https://api.hummingbird.co/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/hummingbird-regtech-domain-security.yml
+- type: Website
+  url: https://www.hummingbird.co/
+- type: Portal
+  url: https://api.hummingbird.co/
+- type: Documentation
+  url: https://api.hummingbird.co/
+- type: Support
+  url: https://info.hummingbird.co/support
+- type: Blog
+  url: https://www.hummingbird.co/resources
+- type: ChangeLog
+  url: https://www.hummingbird.co/resources?category=Product
+- type: Login
+  url: https://app.hummingbird.co/
+- type: PrivacyPolicy
+  url: https://www.hummingbird.co/privacy-policy
+- type: Integrations
+  url: https://www.hummingbird.co/apps
+- type: TrustCenter
+  url: security/hummingbird-regtech-trust-center.yml
+- type: Compliance
+  url: https://trust.hummingbird.co/
+- type: VulnerabilityDisclosure
+  url: security/hummingbird-regtech-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.hummingbird.co/security
+- type: LLMsTxt
+  url: llms/hummingbird-regtech-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -1,0 +1,14 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.hummingbird.co/security
+url: https://trust.hummingbird.co/
+certifications:
+- SOC 2 (Security, Availability, and Confidentiality)
+programs:
+- Third-party penetration testing
+- Bug bounty program
+evidence:
+- source: https://www.hummingbird.co/security
+  keywords: [soc 2, penetration testing, bug bounty, security]
+- source: https://trust.hummingbird.co/
+  note: dedicated trust center (returns 403 to automated probes; verified via public security page)
