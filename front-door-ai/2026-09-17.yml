@@ -1,0 +1,32 @@
+# Front Door AI Index — hummingbird-regtech — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: hummingbird-regtech
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.hummingbird.co
+  final_host: www.hummingbird.co
+  ownership: shared
+  owner: hummingbird
+  shares_host_with:
+  - hummingbird
+  inherited_from: null
+  verdict: scored
+  score: null
+  host_score: 40
+  density: null
+  words: 1509
+  tiers:
+    agentic: 12
+    core: 28
+    model: 0
+  ambiguous: 25
+  top_terms:
+    AI: 26
+    agent: 13
+    AI agent: 11
+    automation: 10
+    artificial intelligence: 2
+    intelligence: 2
+    agentic: 1
